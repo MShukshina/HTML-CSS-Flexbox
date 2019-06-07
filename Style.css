@@ -1,0 +1,56 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.div{
+    height: 100%;
+}
+
+.box Header{
+    height: 100px;
+    align-self: stretch;
+    background: #856685;
+    overflow: visible;
+}
+
+.box Footer{
+    height: 100px;
+    align-self: stretch;
+    background: #493549;
+    overflow: visible;
+}
+
+.body {
+    background: #a88ba8;
+    height: 100%;
+    margin:0;
+}
+
+.h1{
+    margin: 0;
+    font-family:  Snell Roundhand, cursive;
+    font-size: 48pt;
+    text-shadow: 1px 1px 3px #251d25;
+    color: #ffffff;
+}
+
+.h2{
+    margin: 0;
+    text-align: center;
+    font-family:  Snell Roundhand;
+    font-size: 24pt;
+    text-shadow: 1px 1px 3px #251d25;
+    color: #ffffff;
+}
+
+.p{
+    margin: 0;
+    font-family:  Snell Roundhand;
+    font-size: 20pt;
+    color: #ffffff;
+}
+
