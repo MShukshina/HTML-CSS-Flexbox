@@ -1,0 +1,120 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: auto;
+    height: 100%
+}
+
+.box header{
+    padding: 10px;
+    height: 150px;
+    align-self: stretch;
+    background: #856685;
+    overflow: visible;
+}
+
+.div{
+    margin: 10px;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu button{
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background: #493549;
+}
+
+.btAlignRight{
+    margin-left: auto;
+}
+
+.h3 {
+    margin: 5px 20px;
+    color: #ffffff;
+    font-size: 24pt;
+}
+
+.box footer{
+    height: 100px;
+    align-self: stretch;
+    background: #493549;
+    overflow: visible;
+}
+
+.body {
+    background: #a88ba8;
+    height: 100%;
+    margin:0;
+}
+
+.h1{
+    margin: 0 10px;
+    font-family:  Snell Roundhand, cursive;
+    font-size: 48pt;
+    text-shadow: 1px 1px 3px #251d25;
+    color: #ffffff;
+}
+
+.h2{
+    margin: 10px;
+    text-align: center;
+    font-family:  Snell Roundhand;
+    font-size: 24pt;
+    text-shadow: 1px 1px 3px #251d25;
+    color: #ffffff;
+}
+
+.p{
+    margin: 10px;
+    font-family:  Snell Roundhand;
+    font-size: 20pt;
+    color: #ffffff;
+}
+
+.a{
+    color: #ffffff;
+}
+
+.input{
+    margin: 4px 10px;
+    size: 150;
+    font-size: 24pt;
+    width: 450px;
+}
+
+.div-svg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;    
+    opacity: .5;
+    color: #fff;
+    display: none;
+}
+
+.svg{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    width: 135px; 
+    height: 135px;  
+    fill: #fff;
+}
